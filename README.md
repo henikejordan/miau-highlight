@@ -60,6 +60,8 @@ To generate these files, we open a new terminal window and execute:
 gulp basic
 ```
 
+Then open the browser and go to `localhost:8080`
+
 ## Running Unit Tests
 
 The miau-highlight comes preconfigured with unit tests. These are written in
@@ -119,7 +121,7 @@ Now you can use the component in your HTML:
 ```html
 	<miau-highlight 
 		text="The text to be highlighted" 
-		word="words" 
+		word="word" 
 		before="1" 
 		later="3">
 	</miau-highlight>

@@ -21,7 +21,7 @@
                 template: '<example></example>'
             })
 			.when('/highlight',{
-                template: '<miau-highlight text="Henike Voss" word="ni" before="2" later="2"></miau-highlight>'
+                template: '<miau-highlight text="Henike Voss" word="nik" before="2" later="1"></miau-highlight>'
             })
     }
 })();
